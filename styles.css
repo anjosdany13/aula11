@@ -1,0 +1,72 @@
+a:hover {
+    background-color: blueviolet;
+}
+a:active {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:visited {
+    color:brown;
+}
+form:focus {
+border: 10px;
+}
+li:first-child {
+    color: red;
+}
+li:last-child {
+    color: green;
+}
+li:nth-child(2) {
+    color:goldenrod;
+}
+p:first-of-type {
+    color:blue;
+}
+p:last-of-type {
+    color:crimson;
+}
+p:nth-of-type(2) {
+    color:fuchsia;
+}
+h4:not(.primavera) {
+color:blueviolet;
+}
+option:checked {
+    background: red;
+}
+option:disabled {
+    background: gray;
+}
+
+input[type=email]:invalid {
+    background-color: red;
+}
+
+input[type=email]:valid {
+    background-color: green; }
+
+    h2::after {
+        content: "Chego dia 3.";
+    }
+    
+    h2::before {
+        content: "Passagem já comprada.";
+    }
+    h2::first-letter {
+        color:blueviolet;
+    }
+    h5::first-line {
+        color:rgb(13, 80, 30);
+    }
+
+    ::selection {background-color: red;}
+
+    ::marker {
+        color: red;
+        font-size: 23px;
+    }
+
+    ::placeholder {
+        color: blue;
+    }
+    
